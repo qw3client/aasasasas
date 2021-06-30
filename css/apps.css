@@ -1,0 +1,86 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+    margin: 0;
+}
+
+header {
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.ui.secondary.menu {
+    height: 80px;
+    top: 0;
+    background: #252a2f !important;
+    width: 100vw !important;
+    margin: 0 !important;
+}
+
+.ui.secondary.menu img {
+    margin-right: 5px !important;
+}
+
+.ui.secondary.menu a {
+    font-size: 1.5em;
+    color: #fff !important;
+    font-weight: normal;
+}
+
+.ui.blue.button {
+    margin: 10px 0;
+}
+
+.right.menu > .button {
+    margin-right: 1em !important;
+}
+
+.header > h5 {
+    margin: 10px 0 5px !important;
+    font-size: 1.2em;
+}
+
+.header > h4 {
+    margin: 0 !important;
+    color: #C4C4C4;
+    text-transform: uppercase;
+}
+
+.header > h1 {
+    margin: 30px 0 30px !important;
+}
+
+.header > p {
+    margin: 0 0 !important;
+}
+
+.fab {
+    margin-left: 5px;
+}
+
+.sub-text {
+    margin-top: 30px;
+}
+
+.button {
+    background-color: #252a2f;
+    padding: 1em 2em;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.position > h1 {
+    margin-top: 2em !important;
+}
+
+#apps-description {
+    margin-top: 40px;
+}

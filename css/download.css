@@ -1,0 +1,100 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+    margin: 0;
+}
+
+header {
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.ui.secondary.menu {
+    height: 80px;
+    top: 0;
+    background: #252a2f !important;
+    width: 100vw !important;
+    margin: 0 !important;
+}
+
+.ui.secondary.menu img {
+    margin-right: 5px !important;
+}
+
+.ui.secondary.menu a {
+    font-size: 1.5em;
+    color: #fff !important;
+    font-weight: normal;
+}
+
+.ui.blue.button {
+    margin: 10px 0;
+}
+
+.right.menu > .button {
+    margin-right: 1em !important;
+}
+
+.header > h5 {
+    margin: 10px 0 5px !important;
+    font-size: 1.2em;
+}
+
+.header > h4 {
+    margin: 0 !important;
+    color: #C4C4C4;
+    text-transform: uppercase;
+}
+
+.header > h1 {
+    margin: 30px 0 30px !important;
+}
+
+.header > p {
+    margin: 0 0 !important;
+}
+
+.fab {
+    margin-right: 5px;
+}
+
+.download {
+    margin-top: 20px;
+}
+
+.sub-text {
+    margin-top: 30px;
+}
+
+#changelog {
+    overflow: scroll;
+    color: #000;
+    height: 60vh;
+}
+
+#installer {
+    margin-top: 40px;
+}
+
+#installer-download {
+    width: 50% !important;
+}
+
+#installer-changelog {
+    width: 50% !important;
+}
+
+@media (max-width: 48em) {
+    #installer-download {
+        width: 100% !important;
+    }
+
+    #installer-changelog {
+        margin-top: 50px;
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,107 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+    margin: 0;
+}
+
+header {
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.ui.secondary.menu {
+    height: 80px;
+    top: 0;
+    background: #252a2f !important;
+    width: 100vw !important;
+    margin: 0 !important;
+}
+
+.ui.secondary.menu img {
+    margin-right: 5px !important;
+}
+
+.ui.secondary.menu a {
+    font-size: 1.5em;
+    color: #fff !important;
+    font-weight: normal;
+}
+
+.right.menu > .button {
+  margin-right: 1em !important;
+}
+
+.ui.styled.accordion {
+  width: 100% !important;
+}
+
+.ui.styled.accordion > .active.title, .ui.styled.accordion > .title {
+  font-weight: bold;
+  font-size: 18px !important;
+}
+
+.ui.styled.accordion > .title, .ui.styled.accordion > .title:hover, .ui.styled.accordion > .content {
+  margin-bottom: 6px !important;
+}
+
+.ui.styled.accordion > .active.title, .ui.styled.accordion > .active.content {
+  margin-bottom: 0px !important;
+}
+
+.ui.styled.accordion > .active.content {
+  margin-bottom: 6px !important;
+}
+
+.ui.styled.accordion > .title, .ui.styled.accordion > .content > .accordion > .title {
+  color: #000000 !important;
+}
+
+.support > h3 {
+  color: #2980B9 !important;
+}
+
+.support > h3 > a > i {
+  width: 16px !important;
+}
+
+.support > h3 > .subheader {
+  color: black !important;
+  font-weight: normal;
+}
+
+.button {
+    background-color: #252a2f;
+    padding: 1em 2em;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 2em;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#support {
+    margin-top: 40px;
+}
+
+#support-faq {
+    width: 65% !important;
+}
+
+#support-help {
+    width: 35% !important;
+}
+
+@media (max-width: 48em) {
+    #support-faq {
+        width: 100% !important;
+    }
+
+    #support-help {
+        margin-top: 50px;
+        width: 100% !important;
+    }
+}

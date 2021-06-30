@@ -1,0 +1,125 @@
+<html lang="en">
+
+<!-- Mirrored from batmod.com/checkout by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jun 2021 08:56:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout - BatMod for Minecraft</title>
+<meta name="description" content="BatMod offers unique mods and features all wrapped into one client. Join our ever-growing community and treat yourself to all we have to give today!">
+<meta name="keywords" content="batmod, bat mod, batmod client, batmod download, batmod install, batmod client download, batmod client install, batmod 1.8, batmod 1.8.8, batmod 1.8.9, bat client,
+    minecraft, optifine, pvp, batmod minecraft, batmod optifine, batmod pvp, batmod discord, batmod twitter, batmod youtube">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="BatMod for Minecraft">
+<meta property="og:description" content="BatMod offers unique mods and features all wrapped into one client. Join our ever-growing community and treat yourself to all we have to give today!">
+<meta property="og:image" content="img/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@BatModClient">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#252a2f">
+<meta name="msapplication-TileColor" content="#252a2f">
+<meta name="theme-color" content="#252a2f">
+<link rel="stylesheet" href="css/header.css" />
+<link rel="stylesheet" href="css/checkout.css" />
+<link rel="stylesheet" href="css/footer.css" />
+<link rel="stylesheet" href="semantic/dist/semantic.min.css" />
+<script src="../kit.fontawesome.com/cd471109af.js" crossorigin="anonymous"></script>
+<script src="../code.jquery.com/jquery-3.4.1.js"></script>
+<script src="semantic/dist/semantic.min.js"></script>
+<script src="../unpkg.com/axios%400.21.1/dist/axios.min.js"></script>
+<script src="../cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.5/components/accordion.js"></script>
+<script src="../cdn.jsdelivr.net/npm/js-cookie%40rc/dist/js.cookie.min.js"></script>
+
+<script src="https://www.paypal.com/sdk/js?intent=authorize&amp;client-id=AV8fw5LHfDYvQLMtLdsscxJpVKSy-ocTPFP4OKkSVx03OP9f_PrFvIXx8C3_MyAYmqLaH1oXKSsWJurV"></script>
+<script src="js/checkout.js"></script>
+</head>
+<body>
+<header class="content-header">
+<a class="logo" href="index.html">
+<img src="img/wordmark.svg" alt="BatMod" draggable="false" />
+</a>
+<input class="menu-btn" type="checkbox" id="menu-btn" />
+<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+<ul class="menu">
+<li><a href="index.html">Home</a></li>
+<li><a href="download.html">Download</a></li>
+<li><a href="support.html">Support</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a class="menu-discord" href="https://discord.batmod.com/" target="_blank"><img src="img/discord_logo_white.svg" alt="discord" draggable="false" /></a></li>
+</ul>
+</header>
+<div class="main-container">
+<main>
+<div class="main-container-row">
+<div class="ui grid" id="segment">
+<div class="ui info message" id="info-message">
+<i class="close icon"></i>
+<div class="header">Welcome to our new shop page!</div>
+<ul class="list">
+<li>Not everything may be working as intended, but do not worry every purchase that goes through
+will be logged.
+</li>
+<li>The only supported payment gateways at the moment are PayPal and Credit Cards. This will
+ change
+soon though!
+</li>
+<li>You should receive your items automatically, but if you believe there is an issue you may
+contact us on <a href="cdn-cgi/l/email-protection.html#54272124243b262014363520393b307a373b39"><span class="__cf_email__" data-cfemail="74070104041b060034161500191b105a171b19">[email&#160;protected]</span></a>.
+</li>
+</ul>
+</div>
+<div id="shopping-cart-container">
+<div class="ui center aligned medium header" id="shopping-cart-header">
+<i class="cart icon"></i>Shopping Cart
+</div>
+<a href="shop.html">
+<div class="ui large button back" data-position="bottom right">
+<i class="arrow left icon"></i>Back
+</div>
+</a>
+<div class="ui large middle aligned celled list" id="shopping-cart"></div>
+<div class="ui left aligned medium header" id="shopping-cart-total"></div>
+</div>
+<div id="checkout-container">
+<div class="ui header centered"><i class="credit card outline icon"></i>Purchase</div>
+<div class="ui segment">
+<h4 class="ui header">Username</h4>
+<div class="ui input" id="username_input_div">
+<input type="text" placeholder="Username" name="username" id="username_input" />
+<img src="https://crafatar.com/avatars/606e2ff0-ed77-4842-9d6c-e1d3321c7838?size=38&amp;overlay" alt="Missing" class="username-img" id="username_img" />
+</div>
+<h4 class="ui header">Terms of Service</h4>
+<div class="ui checkbox">
+<input id="terms" type="checkbox" name="terms" />
+<label for="terms">I agree to the <a href="terms.html">Terms of Service</a></label>
+</div>
+<h4 class="ui header">Payment method</h4>
+<p id="tos-required">* Please agree to the Terms of Service above to proceed</p>
+<p id="username-required">* Please insert your Minecraft username to proceed</p>
+<div id="checkout-paypal-cover" style="pointer-events: none;">
+<div id="checkout-paypal"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer>
+<div class="links">
+<a class="border-right" href="terms.html">Terms of Service</a><a class="
+            border-left border-right" href="privacy.html">Privacy Policy</a><a class="
+            border-left border-right" href="apps.html">Apps</a><a class="
+            border-left" href="https://translate.batmod.com/" target="_blank">Translate</a>
+</div>
+<h5 class="copyright">© 2021 BatMod</h5>
+<h5 class="copyright">Org nr. NO926 075 497 MVA.</h5>
+<h5 class="copyright">All rights reserved.</h5>
+</footer>
+</div>
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+
+<!-- Mirrored from batmod.com/checkout by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jun 2021 08:56:28 GMT -->
+</html>

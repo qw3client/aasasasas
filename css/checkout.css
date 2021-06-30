@@ -1,0 +1,145 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+body,
+html {
+    margin: 0;
+}
+
+header {
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    font-family: "Open Sans", sans-serif !important;
+}
+
+.column.card.two > .ui.input {
+    width: 100%;
+}
+
+#segment {
+    margin-top: 40px;
+}
+
+.button.back {
+    position: relative !important;
+    z-index: 1 !important;
+    float: left;
+    margin-top: -70px !important;
+}
+
+#shopping-cart-container {
+    position: relative !important;
+    display: inline-block !important;
+    width: 100%;
+    padding-right: 1rem;
+    margin-top: 60px;
+}
+
+#checkout-container {
+    position: relative !important;
+    display: inline-block !important;
+    width: 100%;
+    padding-left: 1rem;
+    margin-top: 60px;
+}
+
+#checkout-container .ui.header.centered > i {
+    font-size: unset;
+    margin-top: -8px;
+}
+
+#shopping-cart {
+    overflow: auto;
+    max-height: 400px;
+}
+
+#shopping-cart-header {
+    font-size: 17px;
+    margin: 0;
+}
+
+#shopping-cart-header > i {
+    font-size: unset;
+    margin-top: -8px;
+}
+
+#shopping-cart-total {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 40px;
+    left: 10px;
+    font-size: 17px;
+}
+
+#checkout-paypal {
+    width: 250px;
+}
+
+#shop {
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+#info-message {
+    width: 100% !important;
+    margin: 0 1em !important;
+    top: -20px !important;
+}
+
+.ui.checkbox {
+    width: 100% !important;
+    margin: 1em 0 1em !important;
+}
+
+.username-img {
+    height: 38px;
+    margin-left: 10px;
+}
+
+#paymentwall-widget {
+    z-index: 999;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#paymentwall-widget.is-active {
+    height: 100%;
+    width: 100%;
+}
+
+#paymentwall-widget.is-active > iframe {
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 60em) {
+    .button.back {
+        position: relative !important;
+        z-index: 1 !important;
+        float: left;
+        margin-top: -30px !important;
+        left: 0;
+    }
+
+    #shopping-cart-container {
+        margin-top: 20px !important;
+    }
+
+    #checkout-container {
+        margin-top: 20px !important;
+    }
+}
+
+@media (min-width: 48em) {
+    #shopping-cart-container {
+        width: 50% !important;
+    }
+
+    #checkout-container {
+        width: 50% !important;
+    }
+}

@@ -1,0 +1,223 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>qw3 Client</title>
+<meta name="description" content="qw3Mod offers unique mods and features all wrapped into one client. Join our ever-growing community and treat yourself to all we have to give today!">
+<meta name="keywords" content="qw3, qw3 mod, qw3 client, qw3mod download, qw3 install, qw3mod client download, qw3mod client install, qw3Mod 1.8, qw3Mod 1.8.8, qw3Mod 1.8.9, qw3 client,
+    minecraft, optifine, pvp, qw3Mod minecraft, qw3Mod optifine, qw3Mod pvp, qw3Mod discord, qw3Mod twitter, qw3Mod youtube">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="qw3Mod for Minecraft">
+<meta property="og:description" content="qw3Mod offers unique mods and features all wrapped into one client. Join our ever-growing community and treat yourself to all we have to give today!">
+<meta property="og:image" content="img/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@qw3ModClient">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#252a2f">
+<meta name="msapplication-TileColor" content="#252a2f">
+<meta name="theme-color" content="#252a2f">
+<link rel="stylesheet" href="css/header.css" />
+<link rel="stylesheet" href="css/index.css" />
+<link rel="stylesheet" href="css/footer.css" />
+<link rel="stylesheet" href="semantic/dist/semantic.min.css" />
+<script src="../kit.fontawesome.com/cd471109af.js" crossorigin="anonymous"></script>
+<script src="../code.jquery.com/jquery-3.4.1.js"></script>
+<script src="semantic/dist/semantic.min.js"></script>
+<script src="../unpkg.com/axios%400.21.1/dist/axios.min.js"></script>
+<script src="../cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.5/components/accordion.js"></script>
+<script src="js/index.js"></script>
+</head>
+<body>
+<header class="content-header">
+<a class="logo" href="index.html">
+<img src="img/wordmark.svg" alt="qw3Mod" draggable="false" />
+</a>
+<input class="menu-btn" type="checkbox" id="menu-btn" />
+<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+<ul class="menu">
+<li><a href="index.html">Home</a></li>
+<li><a href="download.html">Download</a></li>
+<li><a href="support.html">Support</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a class="menu-discord" href="https://discord.qw3Mod.com/" target="_blank"><img src="img/discord_logo_white.svg" alt="discord" draggable="false" /></a></li>
+</ul>
+</header>
+<div class="main-container">
+<main>
+<div class="six wide column">
+<div class="home-container">
+<div class="main-container-row">
+<img id="smallLogo" src="img/logo.svg" alt="logo" height="auto" />
+<div class="fifteen wide column" id="home-container-content">
+<h1>qw3<b>Mod</b></h1>
+<h4>For Minecraft 1.8.X</h4>
+<p class="subtitle">qw3Mod offers unique mods and features all wrapped into one client. Join our
+ever-growing community and treat yourself to all we have to give today!</p>
+<p class="subtitle"></p>
+<a href="download.html" class="button">
+<i class="fa fa-download" aria-hidden="true"></i> Download</a>
+<a href="shop.html" class="button">
+<i class="fa fa-shopping-cart" aria-hidden="true"></i> Shop</a>
+<a href="https://discord.qw3Mod.com/" target="_blank" class="button">
+<i class="fab fa-discord" aria-hidden="true"></i> Discord</a>
+<a href="https://twitter.qw3Mod.com/" target="_blank" class="button">
+<i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a>
+</div>
+<img id="largeLogo" src="img/logo.svg" alt="logo" />
+</div>
+</div>
+</div>
+<div class="main-container-row">
+<div class="ui centered grid" id="features">
+<div class="six wide column" id="features-text">
+<h1>Features</h1>
+<p class="subtitle">
+Discover qw3Mod's features and add-ons which will
+entirely change your Minecraft experience.
+</p>
+<div class="six wide column" id="features-screenshot">
+<img src="img/features.png" alt="features" />
+</div>
+</div>
+<div class="six wide column" id="features-accordion">
+<div class="ui styled accordion">
+<div class="active title">
+<i class="dropdown icon"></i>
+Performance
+</div>
+<div class="active content">
+<p>
+qw3Mod boosts your FPS, fixes lag, memory
+leaks and includes a mouse delay fix. Having
+a bad PC is no longer an excuse!
+</p>
+</div>
+<div class="title">
+<i class="dropdown icon"></i>
+Customizable HUDs
+</div>
+<div class="content">
+<p>
+With our neat HUD editor you can customize
+them all for your liking (position, size,
+color, background and more). We have a set
+of popular used HUDs accessible from the
+mods list. Like Keystrokes HUD, Potion HUD,
+Armor HUD and more.
+</p>
+</div>
+<div class="title">
+<i class="dropdown icon"></i>
+1.7 Animations
+</div>
+<div class="content">
+<p>
+qw3Mod includes a set of toggleable 1.7
+Animations for everyone that preffers the
+old Minecraft animations. Like Blockhit
+Animation, Eating Animation, Rod Animation
+and more.
+</p>
+</div>
+<div class="title">
+<i class="dropdown icon"></i>
+Account Manager
+</div>
+<div class="content">
+<p>
+You can securely add an unlimited amount of
+accounts to the Account Manager directly
+from qw3Mod. This way it is much easier to
+switch in-between your accounts. If your
+session ever expires, you won't have to
+restart your game anymore. qw3Mod will take
+care of this!
+</p>
+</div>
+<div class="title">
+ <i class="dropdown icon"></i>
+Cosmetics
+</div>
+<div class="content">
+<p>
+Make sure to customize your character with
+some cool cosmetics! You can acquire them on
+our shop page.
+</p>
+</div>
+<div class="title">
+<i class="dropdown icon"></i>
+Spotify
+</div>
+<div class="content">
+<p>
+qw3Mod allows you to link your client with
+Spotify. This way you can easily view what
+track you are listening to.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="ui centered grid" id="statistics">
+<div class="two wide column"></div>
+<div class="twelve wide column" id="statistics-text">
+<h1>Statistics</h1>
+<div class="ui centered grid">
+<div class="ui statistics">
+<div class="six wide column statistic" id="statistics-downloads">
+<div class="value"><span id="dl-count">?</span></div>
+<div class="label"><i class="download icon"></i> Downloads</div>
+</div>
+<div class="six wide column statistic" id="statistics-online">
+<div class="value"><span id="online-count">?</span></div>
+<div class="label"><i class="user icon"></i> Currently online</div>
+</div>
+</div>
+</div>
+</div>
+<div class="two wide column"></div>
+</div>
+<div class="main-container-row">
+<div class="ui centered grid" id="cosmetics">
+<div class="six wide column" id="cosmetics-text">
+<h1>Cosmetics</h1>
+<p class="subtitle">Customize your character</p>
+<p>
+With qw3Mod, you can customize your character anyway
+you’d like. We offer various cosmetics in our shop.
+</p>
+<a href="shop.html" class="dark-button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Shop</a>
+</div>
+<div class="six wide column" id="cosmetics-screenshot">
+<img src="img/cosmetic.png" alt="cosmetic" />
+</div>
+</div>
+</div>
+<div class="ui centered grid" id="team">
+<div class="main-container-row">
+<h1>Our Team</h1>
+<div class="ui cards" id="team-heads"></div>
+</div>
+</div>
+</main>
+<footer>
+<div class="links">
+<a class="border-right" href="terms.html">Terms of Service</a><a class="
+            border-left border-right" href="privacy.html">Privacy Policy</a><a class="
+            border-left border-right" href="apps.html">Apps</a><a class="
+            border-left" href="https://translate.qw3Mod.com/" target="_blank">Translate</a>
+</div>
+<h5 class="copyright">© 2021 qw3Mod</h5>
+<h5 class="copyright">Org nr. NO926 075 497 MVA.</h5>
+<h5 class="copyright">All rights reserved.</h5>
+</footer>
+</div>
+</body>
+
+<!-- Mirrored from qw3Mod.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jun 2021 08:56:04 GMT -->
+</html>

@@ -1,0 +1,36 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+body,
+html {
+    margin: 0;
+}
+
+header {
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    font-family: "Open Sans", sans-serif !important;
+}
+
+footer {
+    position: relative !important;
+    bottom: 0;
+}
+
+.column {
+    margin-top: 40px;
+    text-align: center;
+    width: 100% !important;
+}
+
+.column h1 {
+    font-size: 250%;
+}
+
+.column p {
+    padding-left: 10px !important;
+    text-align: left;
+    font-size: 120%;
+}
